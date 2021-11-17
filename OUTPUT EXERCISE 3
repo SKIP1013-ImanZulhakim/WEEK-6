@@ -1,0 +1,48 @@
+Enter Subject 1 : 
+Math
+Enter Mark 1 for Subject 1 : 
+90
+Enter Subject 2 : 
+SainsKom
+Enter Mark 2 for Subject 2 : 
+80
+The mark for  Math is higher than the mark of SainsKom
+You passed Math
+You passed SainsKom
+You average mark is 85
+You gred is A
+
+
+
+-------------------------------------------------
+
+Enter Subject 1 : 
+Math
+Enter Mark 1 for Subject 1 : 
+70
+Enter Subject 2 : 
+SainsKom
+Enter Mark 2 for Subject 2 : 
+40
+The mark for  Math is higher than the mark of SainsKom
+You passed Math
+You failed SainsKom
+You average mark is 55
+You gred is C
+
+
+---------------------------------------------------
+
+Enter Subject 1 : 
+Math
+Enter Mark 1 for Subject 1 : 
+40
+Enter Subject 2 : 
+SainsKom
+Enter Mark 2 for Subject 2 : 
+30
+The mark for  Math is higher than the mark of SainsKom
+You failed Math
+You failed SainsKom
+You average mark is 35
+You fail!
