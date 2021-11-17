@@ -1,0 +1,38 @@
+package exercise;
+import java.util.Scanner; 			//Masukkan bmi.. 
+									//jika kurang dari 18.5 - underweight, 
+									//jika kurang dari 25 - normal, 
+									//jika kurang dari 30 - overweight dan lain-lain Obese
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		double height, weight, BMI=0;
+		
+		System.out.println("Enter your height (in cm):");
+		height = sc.nextDouble();
+		
+		System.out.println("Enter your weight (in kg):");
+		weight = sc.nextDouble();
+		
+		BMI = weight/(height*height)*10000;
+		
+		if      (BMI<18.5)
+			System.out.printf("You are underweight "+"and your BMI is %.2f ",BMI);
+		
+		else if ((BMI>18.5) && (BMI<25))
+			System.out.printf("You are normal "+"and your BMI is %.2f ",BMI);
+		
+		else if ((BMI>25) && (BMI<30))
+			System.out.printf("You are overweight "+"and your BMI is %.2f ",BMI);
+		
+		else if (BMI>30)
+			System.out.printf("You are obese "+"and your BMI is %.2f ",BMI);
+		
+		
+		sc.close();
+		
+	}
+
+}
